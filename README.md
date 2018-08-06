@@ -9,10 +9,13 @@ Features:-
 Ranking Algorithm:-
 ------------------
 1. User specifies prerequisites and then the other relatively less critical requirements.
+
 2. The whole list of online users would be divided into three tiers.
   2.1. Top tier contains users who have satisfied the prerequisites + the other requirements(including the proximity requirement).
+  
   2.2. Middle tier contains users who have satisfied the prerequisites + the other requirements(but have failed to satisfy the proximity requirement).
-  2.2. Lowest tier contains users who have failed to satisfy the prerequisites but have satisfied the other requirements.
+  
+  2.2. Lowest tier contains users who have failed to satisfy the prerequisites but have satisfied the other requirements.  
       2.2.1. This would be based strictly on the number of requirements satisfied and proximity is not considered.
   
 Future Scope:-
